@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FlipboardTR</string>
+    <string name="title_activity_haber1">Haber1</string>
+    <string name="title_home">Main Menu</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_category">Category</string>
+    <string name="title_search">Search</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_developer">Developer :</string>
+    <string name="title_cahil">Supporter :</string>
+    <string name="title_profilename">YOUR PROFİLE</string>
+    <string name="title_girisyap">Sign In</string>
+    <string name="title_kayitol">Sign Up</string>
+    <string name="title_cikisyap">Sign Out</string>
+    <string name="title_aramahint">Search Here</string>
+    <string name="title_is">BUSINESS</string>
+    <string name="title_eglence">ENTERTAINMENT</string>
+    <string name="title_saglik">HEALTH</string>
+    <string name="title_bilim">SCIENCE</string>
+    <string name="title_spor">SPORTS</string>
+    <string name="title_teknoloji">TECHNOLOGY</string>
+    <string name="title_hakkinda">About</string>
+    <string name="title_dil">us</string>
+    <string name="title_kaydet">Save</string>
+    <string name="title_toastsaved">Saved</string>
+</resources>

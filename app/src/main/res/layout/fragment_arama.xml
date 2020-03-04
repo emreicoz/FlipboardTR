@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan22">
+
+
+    <EditText
+        android:id="@+id/arama_editText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/title_aramahint"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/arama_button"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="310dp"
+        android:background="@drawable/ic_search" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container_arama"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+        >
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh_layout_arama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foregroundTintMode="add"
+            >
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_arama"
+                android:layout_width="match_parent"
+                android:layout_height="551dp"
+                android:foregroundGravity="top|left|bottom|right" />
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </FrameLayout>
+
+
+
+
+</RelativeLayout>

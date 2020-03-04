@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FlipboardTR</string>
+    <string name="title_activity_haber1">Haber1</string>
+    <string name="title_home">Ana Menü</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_category">Kategori</string>
+    <string name="title_search">Arama</string>
+    <string name="title_profile">Profil</string>
+    <string name="title_developer">Yazılım Geliştirici :</string>
+    <string name="title_cahil">Akıllı Cahil :</string>
+    <string name="title_profilename">PROFİLİN</string>
+    <string name="title_girisyap">Giriş Yap</string>
+    <string name="title_kayitol">Kayıt Ol</string>
+    <string name="title_cikisyap">Çıkış Yap</string>
+    <string name="title_aramahint">Aranacak kelimeyi girin</string>
+    <string name="title_is">İŞ</string>
+    <string name="title_eglence">EĞLENCE</string>
+    <string name="title_saglik">SAĞLIK</string>
+    <string name="title_bilim">BİLİM</string>
+    <string name="title_spor">SPOR</string>
+    <string name="title_teknoloji">TEKNOLOJİ</string>
+    <string name="title_hakkinda">Hakkında</string>
+    <string name="title_dil">tr</string>
+    <string name="title_kaydet">Kaydet</string>
+    <string name="title_toastsaved">Kaydedildi</string>
+
+</resources>

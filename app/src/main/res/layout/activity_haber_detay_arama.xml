@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:id="@+id/scroll_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HaberDetayActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ust_menu_toolbar"
+        android:layout_width="415dp"
+        android:layout_height="52dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/toolbar_ust_menu"
+        app:title="Flipboard"
+        />
+
+    <ImageView
+        android:id="@+id/image_view_detay"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/text_view_baslik_detay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haber Başlık"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="28sp"
+        android:onClick="Siteye_Git"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+    <TextView
+        android:id="@+id/text_view_kaynak_detay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haber Kaynak"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+    <TextView
+        android:id="@+id/text_view_icerik_detay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haber İçerik"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+
+
+
+</LinearLayout>
+</ScrollView>

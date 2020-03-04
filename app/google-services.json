@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "800956946167",
+    "firebase_url": "https://flipboard-72276.firebaseio.com",
+    "project_id": "flipboard-72276",
+    "storage_bucket": "flipboard-72276.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800956946167:android:3172c1f57640ecb13fe5f2",
+        "android_client_info": {
+          "package_name": "com.example.flipboardtr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800956946167-u4v53umvqr73bcfuhvlsdabv8iu2h15j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flipboardtr",
+            "certificate_hash": "cd60ee91a69defe8f78c7716e4f2f0079192bafb"
+          }
+        },
+        {
+          "client_id": "800956946167-7p6g2jlnkam1pk1tk847u933ueuipav8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYTIDdDd686bzaAhpj7j8_uBIB_qqSKvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800956946167-7p6g2jlnkam1pk1tk847u933ueuipav8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
